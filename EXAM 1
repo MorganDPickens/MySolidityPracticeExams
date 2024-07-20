@@ -1,0 +1,44 @@
+
+Question 1
+
+pragma solidity ^0.8.0;
+
+contract SimpleStorage {
+    uint256 storedData;
+
+    function set(uint256 x) public {
+        storedData = x;
+    }
+
+    function get() public view returns (uint256) {
+        return storedData;
+    }
+}
+
+
+Got it! Let's start with the first question.
+
+1. **Simple Storage Contract**:
+   ```solidity
+   pragma solidity ^0.8.0;
+
+   contract SimpleStorage {
+       uint256 storedData;
+
+       function set(uint256 x) public {
+           storedData = x;
+       }
+
+       function get() public view returns (uint256) {
+           return storedData;
+       }
+   }
+   ```
+
+   **Question**: What is the issue with the code?
+   a) The `storedData` variable should be declared as `private`.
+   b) The `set` function should be `view`.
+   c) The `get` function should be `pure`.
+   d) The code is correct.
+
+What is your answer?
