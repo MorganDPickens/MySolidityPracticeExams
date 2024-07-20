@@ -22,3 +22,26 @@ Question:1
    d) The code is correct.
 
 What is your answer?
+
+
+Question 2
+pragma solidity ^0.8.0;
+
+contract Counter {
+    int256 count;
+
+    function increment() public {
+        count = count + 1;
+    }
+
+    function decrement() public {
+        count = count - 1;
+    }
+
+    function getCount() public view returns (int256) {
+        return count;
+    }
+}
+
+
+what is your answer? 
